@@ -39,7 +39,7 @@ TACO-Trash dataset was labeled whit COCO format, to be able to do the training w
 
 ##### Folders structure:
 
-######- images 📁
+###### - images 📁
 
 - train  📂
   - img1.jpg 🖼️
@@ -47,7 +47,7 @@ TACO-Trash dataset was labeled whit COCO format, to be able to do the training w
 - val 📂
 - test 📂
 
-######- labels 📁
+###### - labels 📁
 
 - train 📂
   - img1.txt 📄
