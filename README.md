@@ -37,7 +37,7 @@ The dataset Taco-trash use this format.
 
 TACO-Trash dataset was labeled whit COCO format, to be able to do the training whit YOLOv7 the images labels need to be in the YOLO labeling format and the images and their labels need to be in a specific folder structure.
 
-##### Folders structure:
+#### Folders structure:
 
 ###### - images 📁
 
@@ -55,7 +55,7 @@ TACO-Trash dataset was labeled whit COCO format, to be able to do the training w
 - val 📂
 - test 📂
 - ***images***: each folder whitin the folder 'images' has the images that were labeled corresponding to each subset (train, val and test).
-- *** labels***: Folder whit their corresponding txt of these images.
+- ***labels***: Folder whit their corresponding txt of these images.
 
 ##### The code corresponding to do this preprocessing is in [prepare_dataset.ipynb](https://github.com/Isabel-Olmedo/Detect-waste-in-the-wild/blob/main/prepare_dataset.ipynb)
 
@@ -63,7 +63,7 @@ TACO-Trash dataset was labeled whit COCO format, to be able to do the training w
 
 To do the training we used Google Colab.
 
-- Code in** [detect_waste.ipynb](https://github.com/Isabel-Olmedo/Detect-waste-in-the-wild/blob/main/detect_waste.ipynb)**
+- Code in **[detect_waste.ipynb](https://github.com/Isabel-Olmedo/Detect-waste-in-the-wild/blob/main/detect_waste.ipynb)**
 
 ## Running inference 🏁
 
